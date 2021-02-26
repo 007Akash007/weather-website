@@ -69,12 +69,6 @@ app.get('/weather', (req, res) => {
             })
         })
     })
-    // console.log(req.query.address)
-    // res.send({
-    //     forcast: 'It is snowing',
-    //     location: 'Aligarh',
-    //     address: req.query.address
-    // })
 })
 
 app.get('/products', (req, res) => {
